@@ -1,6 +1,7 @@
-package test;
+package labs;
 
-public class FakeDecoding {
+public class LabMessageDecoder {
+    // This is a mess and I know it...my teacher has forced my hand (it's how he wants it...)
     public static void main(final String[] args) {
         final String m1 = "ThCiw^isIs4SecN3]Qfb7Mess4g3!";
         final String m2 = "?upKUDr.jeXkR?edy_Aw5=me4";
