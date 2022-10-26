@@ -4,7 +4,7 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.*;
 
-public class CalculatorTest {
+public class CalculatorRunner {
     public static void main(final String[] args) throws InvocationTargetException, IllegalAccessException {
         final Class<Calculator> calculatorClass = Calculator.class;
         final Method[] methods = calculatorClass.getDeclaredMethods();
