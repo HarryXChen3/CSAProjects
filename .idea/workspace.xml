@@ -4,32 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50f33dac-9fbd-4459-b73d-c7b153591b0b" name="Changes" comment="Added remaining lab code (previously deleted); Separated lab and testing code.">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/labs/Vowels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/labs/iteration/Iteration4A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/labs/iteration/Iteration4B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/labs/iteration/Iteration4C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/truthtable/Gate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/truthtable/GateException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/truthtable/Gates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/truthtable/TruthTableGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/truthtable/gates/AND.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/truthtable/gates/NOT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/truthtable/gates/OUT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/truthtable/TruthTableGeneratorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="50f33dac-9fbd-4459-b73d-c7b153591b0b" name="Changes" comment="Added some new labs...I forgot what really changed because I forgot to commit my code a while ago but now there's some new labs (yay)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/labs/iteration/Iteration4D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/labs/iteration/Iteration4E.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IntelliJIDEATesting.iml" beforeDir="false" afterPath="$PROJECT_DIR$/IntelliJIDEATesting.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/labs/CodingPractice3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/labs/CodingPractice3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/labs/ConditionalStatementLab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/labs/ConditionalStatementLab.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/labs/Lab2Quadratic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/labs/Lab2Quadratic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/labs/LabMessageDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/labs/LabMessageDecoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/CalculatorRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +65,7 @@
       <recent name="C:\Dev\CSAProjects\src\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Iteration4C">
+  <component name="RunManager" selected="Application.Iteration4E">
     <configuration name="Iteration4A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="labs.iteration.Iteration4A" />
       <module name="IntelliJIDEATesting" />
@@ -127,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Vowels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="labs.Vowels" />
+    <configuration name="Iteration4D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="labs.iteration.Iteration4D" />
       <module name="IntelliJIDEATesting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="labs.*" />
+          <option name="PATTERN" value="labs.iteration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,29 +118,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TruthTableGeneratorTest.tempTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Iteration4E" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="labs.iteration.Iteration4E" />
       <module name="IntelliJIDEATesting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="truthtable.*" />
+          <option name="PATTERN" value="labs.iteration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="truthtable" />
-      <option name="MAIN_CLASS_NAME" value="truthtable.TruthTableGeneratorTest" />
-      <option name="METHOD_NAME" value="tempTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Iteration4E" />
+        <item itemvalue="Application.Iteration4D" />
         <item itemvalue="Application.Iteration4C" />
         <item itemvalue="Application.Iteration4B" />
         <item itemvalue="Application.Iteration4A" />
-        <item itemvalue="Application.Vowels" />
-        <item itemvalue="JUnit.TruthTableGeneratorTest.tempTest" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +169,9 @@
       <workItem from="1666279620702" duration="1554000" />
       <workItem from="1666301837322" duration="342000" />
       <workItem from="1666398691158" duration="224000" />
-      <workItem from="1666793676319" duration="2653000" />
+      <workItem from="1666793676319" duration="3063000" />
+      <workItem from="1666803317299" duration="1724000" />
+      <workItem from="1666963760841" duration="8183000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1664894154499</created>
@@ -224,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665019415591</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added some new labs...I forgot what really changed because I forgot to commit my code a while ago but now there's some new labs (yay)">
+      <created>1666796763578</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666796763578</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,7 +229,8 @@
     <MESSAGE value="Initial commit." />
     <MESSAGE value="Cleanup files, add .gitignore for IDEA/IntelliJ" />
     <MESSAGE value="Added remaining lab code (previously deleted); Separated lab and testing code." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added remaining lab code (previously deleted); Separated lab and testing code." />
+    <MESSAGE value="Added some new labs...I forgot what really changed because I forgot to commit my code a while ago but now there's some new labs (yay)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added some new labs...I forgot what really changed because I forgot to commit my code a while ago but now there's some new labs (yay)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
