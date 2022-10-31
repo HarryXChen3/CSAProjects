@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50f33dac-9fbd-4459-b73d-c7b153591b0b" name="Changes" comment="Added some new labs...I forgot what really changed because I forgot to commit my code a while ago but now there's some new labs (yay)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/labs/iteration/Iteration4D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/labs/iteration/Iteration4E.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="50f33dac-9fbd-4459-b73d-c7b153591b0b" name="Changes" comment="Add Iteration4D and Iteration4E" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -171,7 +167,7 @@
       <workItem from="1666398691158" duration="224000" />
       <workItem from="1666793676319" duration="3063000" />
       <workItem from="1666803317299" duration="1724000" />
-      <workItem from="1666963760841" duration="8183000" />
+      <workItem from="1666963760841" duration="8497000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1664894154499</created>
@@ -208,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666796763578</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add Iteration4D and Iteration4E">
+      <created>1667236525253</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1667236525253</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,7 +233,8 @@
     <MESSAGE value="Cleanup files, add .gitignore for IDEA/IntelliJ" />
     <MESSAGE value="Added remaining lab code (previously deleted); Separated lab and testing code." />
     <MESSAGE value="Added some new labs...I forgot what really changed because I forgot to commit my code a while ago but now there's some new labs (yay)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added some new labs...I forgot what really changed because I forgot to commit my code a while ago but now there's some new labs (yay)" />
+    <MESSAGE value="Add Iteration4D and Iteration4E" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Iteration4D and Iteration4E" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
