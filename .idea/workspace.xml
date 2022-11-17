@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50f33dac-9fbd-4459-b73d-c7b153591b0b" name="Changes" comment="Add Iteration4D and Iteration4E" />
+    <list default="true" id="50f33dac-9fbd-4459-b73d-c7b153591b0b" name="Changes" comment="Commit workspace.xml">
+      <change afterPath="$PROJECT_DIR$/src/main/java/labs/linebreaker/LineBreaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/labs/linebreaker/LineBreakerRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/labs/monster/Monster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/labs/monster/MonsterRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/truthtable/TruthTableGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/truthtable/TruthTableGeneratorTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,59 +68,7 @@
       <recent name="C:\Dev\CSAProjects\src\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Iteration4E">
-    <configuration name="Iteration4A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="labs.iteration.Iteration4A" />
-      <module name="IntelliJIDEATesting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="labs.iteration.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Iteration4B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="labs.iteration.Iteration4B" />
-      <module name="IntelliJIDEATesting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="labs.iteration.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Iteration4C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="labs.iteration.Iteration4C" />
-      <module name="IntelliJIDEATesting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="labs.iteration.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Iteration4D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="labs.iteration.Iteration4D" />
-      <module name="IntelliJIDEATesting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="labs.iteration.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TruthTableGeneratorTest">
     <configuration name="Iteration4E" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="labs.iteration.Iteration4E" />
       <module name="IntelliJIDEATesting" />
@@ -127,13 +82,70 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LineBreakerRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="labs.linebreaker.LineBreakerRunner" />
+      <module name="IntelliJIDEATesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="labs.linebreaker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MonsterRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="labs.monster.MonsterRunner" />
+      <module name="IntelliJIDEATesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="labs.monster.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TruthTableGeneratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IntelliJIDEATesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="truthtable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="truthtable" />
+      <option name="MAIN_CLASS_NAME" value="truthtable.TruthTableGeneratorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TruthTableGeneratorTest.tempTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IntelliJIDEATesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="truthtable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="truthtable" />
+      <option name="MAIN_CLASS_NAME" value="truthtable.TruthTableGeneratorTest" />
+      <option name="METHOD_NAME" value="tempTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TruthTableGeneratorTest" />
+        <item itemvalue="JUnit.TruthTableGeneratorTest.tempTest" />
+        <item itemvalue="Application.MonsterRunner" />
+        <item itemvalue="Application.LineBreakerRunner" />
         <item itemvalue="Application.Iteration4E" />
-        <item itemvalue="Application.Iteration4D" />
-        <item itemvalue="Application.Iteration4C" />
-        <item itemvalue="Application.Iteration4B" />
-        <item itemvalue="Application.Iteration4A" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +179,13 @@
       <workItem from="1666398691158" duration="224000" />
       <workItem from="1666793676319" duration="3063000" />
       <workItem from="1666803317299" duration="1724000" />
-      <workItem from="1666963760841" duration="8497000" />
+      <workItem from="1666963760841" duration="9775000" />
+      <workItem from="1667391220506" duration="624000" />
+      <workItem from="1667489299534" duration="549000" />
+      <workItem from="1667835172411" duration="29000" />
+      <workItem from="1668183633018" duration="1242000" />
+      <workItem from="1668442603739" duration="677000" />
+      <workItem from="1668611013872" duration="4694000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1664894154499</created>
@@ -211,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667236525253</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Commit workspace.xml">
+      <created>1667236658207</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1667236658207</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,7 +259,8 @@
     <MESSAGE value="Added remaining lab code (previously deleted); Separated lab and testing code." />
     <MESSAGE value="Added some new labs...I forgot what really changed because I forgot to commit my code a while ago but now there's some new labs (yay)" />
     <MESSAGE value="Add Iteration4D and Iteration4E" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Iteration4D and Iteration4E" />
+    <MESSAGE value="Commit workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit workspace.xml" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

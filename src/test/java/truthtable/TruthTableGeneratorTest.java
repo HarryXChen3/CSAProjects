@@ -1,16 +1,17 @@
 package truthtable;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import truthtable.gates.AND;
 import truthtable.gates.NOT;
 import truthtable.gates.OUT;
 
-import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 
 public class TruthTableGeneratorTest {
     @Test
+    @Disabled
     public void tempTest() {
         final AND and = new AND();
         final AND otherAnd = new AND();
