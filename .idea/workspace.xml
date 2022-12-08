@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50f33dac-9fbd-4459-b73d-c7b153591b0b" name="Changes" comment="Add Unit 5 Labs, LineBreaker and MonsterRunner, disable failing test on TruthTableGeneratorTest">
-      <change afterPath="$PROJECT_DIR$/src/main/java/labs/array_12_5_22/ArraySolutions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/labs/array_lab/Horse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/labs/array_lab/HorseBarn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/labs/array_lab/NumberCube.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/labs/array_lab/SelfDivisor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/labs/array_12_5_22/ArraySolutionsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/labs/array_lab/HorseBarnTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/labs/array_lab/NumberCubeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/labs/array_lab/SelfDivisorTest.java" afterDir="false" />
+    <list default="true" id="50f33dac-9fbd-4459-b73d-c7b153591b0b" name="Changes" comment="Added Array Unit labs, still missing at least 1 but includes Array_Lab Student and array practice questions...on a more technical side, started using tests when possible instead of putting everything in a main method">
+      <change afterPath="$PROJECT_DIR$/src/main/java/labs/rockpaperscissors/RockPaperScissors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/labs/rockpaperscissors/RockPaperScissorsRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,9 +55,10 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Dev/max_server&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -72,7 +66,20 @@
       <recent name="C:\Dev\CSAProjects\src\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SelfDivisorTest.testFirstNSelfDivisors">
+  <component name="RunManager" selected="Application.RockPaperScissorsRunner">
+    <configuration name="RockPaperScissorsRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="labs.rockpaperscissors.RockPaperScissorsRunner" />
+      <module name="IntelliJIDEATesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="labs.rockpaperscissors.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ArraySolutionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="IntelliJIDEATesting" />
       <extension name="coverage">
@@ -99,22 +106,6 @@
       <option name="PACKAGE_NAME" value="labs.array_12_5_22" />
       <option name="MAIN_CLASS_NAME" value="labs.array_12_5_22.ArraySolutionsTest" />
       <option name="METHOD_NAME" value="testDuplicateDoubleArray" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArraySolutionsTest.testDuplicateIntArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="IntelliJIDEATesting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="labs.array_12_5_22.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="labs.array_12_5_22" />
-      <option name="MAIN_CLASS_NAME" value="labs.array_12_5_22.ArraySolutionsTest" />
-      <option name="METHOD_NAME" value="testDuplicateIntArray" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -153,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RockPaperScissorsRunner" />
         <item itemvalue="JUnit.SelfDivisorTest.testFirstNSelfDivisors" />
         <item itemvalue="JUnit.HorseBarnTest" />
         <item itemvalue="JUnit.ArraySolutionsTest" />
         <item itemvalue="JUnit.ArraySolutionsTest.testDuplicateDoubleArray" />
-        <item itemvalue="JUnit.ArraySolutionsTest.testDuplicateIntArray" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +194,9 @@
       <workItem from="1669999770085" duration="582000" />
       <workItem from="1670418791560" duration="3588000" />
       <workItem from="1670428344855" duration="3720000" />
-      <workItem from="1670505620173" duration="752000" />
+      <workItem from="1670505620173" duration="2944000" />
+      <workItem from="1670510058007" duration="595000" />
+      <workItem from="1670514713249" duration="3193000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1664894154499</created>
@@ -261,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668700593648</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added Array Unit labs, still missing at least 1 but includes Array_Lab Student and array practice questions...on a more technical side, started using tests when possible instead of putting everything in a main method">
+      <created>1670506731542</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1670506731542</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,7 +286,8 @@
     <MESSAGE value="Add Iteration4D and Iteration4E" />
     <MESSAGE value="Commit workspace.xml" />
     <MESSAGE value="Add Unit 5 Labs, LineBreaker and MonsterRunner, disable failing test on TruthTableGeneratorTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Unit 5 Labs, LineBreaker and MonsterRunner, disable failing test on TruthTableGeneratorTest" />
+    <MESSAGE value="Added Array Unit labs, still missing at least 1 but includes Array_Lab Student and array practice questions...on a more technical side, started using tests when possible instead of putting everything in a main method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Array Unit labs, still missing at least 1 but includes Array_Lab Student and array practice questions...on a more technical side, started using tests when possible instead of putting everything in a main method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
