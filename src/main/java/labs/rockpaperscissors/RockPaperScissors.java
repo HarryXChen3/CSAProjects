@@ -10,6 +10,8 @@ public class RockPaperScissors {
         COMPUTER,
         USER,
         TIE,
+
+        NO_RESULT,
     }
 
     public enum Move {
@@ -28,6 +30,45 @@ public class RockPaperScissors {
         public Move getWinsAgainst() { return winsAgainst; }
         public boolean winsAgainst(final Move move) {
             return move == winsAgainst;
+        }
+    }
+
+    public static final class Game {
+        private Winner winner = Winner.NO_RESULT;
+        private final HashMap<Winner, Integer> scoreMap;
+
+        public Game() {
+            final Winner[] winners = Winner.class.getEnumConstants();
+            scoreMap = new HashMap<>(winners.length);
+
+            for (final Winner player : Winner.class.getEnumConstants())
+                scoreMap.put(player, 0);
+        }
+
+        public void addScore(final Winner player, final int score) {
+            scoreMap.put(player, scoreMap.get(player) + score);
+        }
+
+        public void putScore(final Winner player, final int score) {
+            scoreMap.put(player, score);
+        }
+
+        public Winner computeWinner() {
+            final Winner computedWinner = Collections.max(
+                    scoreMap.entrySet(),
+                    Comparator.comparingInt(Map.Entry::getValue)
+            ).getKey();
+
+            this.winner = computedWinner;
+            return computedWinner;
+        }
+
+        public Winner getWinner() {
+            return winner;
+        }
+
+        public int getScore(final Winner player) {
+            return scoreMap.get(player);
         }
     }
 

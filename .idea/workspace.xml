@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50f33dac-9fbd-4459-b73d-c7b153591b0b" name="Changes" comment="Added Array Unit labs, still missing at least 1 but includes Array_Lab Student and array practice questions...on a more technical side, started using tests when possible instead of putting everything in a main method">
-      <change afterPath="$PROJECT_DIR$/src/main/java/labs/rockpaperscissors/RockPaperScissors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/labs/rockpaperscissors/RockPaperScissorsRunner.java" afterDir="false" />
+    <list default="true" id="50f33dac-9fbd-4459-b73d-c7b153591b0b" name="Changes" comment="Add partial code to temporary storage for 12-8-22, need rollback point for incoming changes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/labs/gradingquizzes/GradingQuizzes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/labs/gradingquizzes/GradingQuizzesRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/labs/trackinggrades/Grades.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/labs/trackinggrades/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/labs/rockpaperscissors/RockPaperScissors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/labs/rockpaperscissors/RockPaperScissors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/labs/rockpaperscissors/RockPaperScissorsRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/labs/rockpaperscissors/RockPaperScissorsRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +28,20 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="temp-store-12-8-22" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="master" />
+      </list>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -66,7 +82,33 @@
       <recent name="C:\Dev\CSAProjects\src\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RockPaperScissorsRunner">
+  <component name="RunManager" selected="Application.GradingQuizzesRunner">
+    <configuration name="Grades" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="labs.trackinggrades.Grades" />
+      <module name="IntelliJIDEATesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="labs.trackinggrades.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GradingQuizzesRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="labs.gradingquizzes.GradingQuizzesRunner" />
+      <module name="IntelliJIDEATesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="labs.gradingquizzes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RockPaperScissorsRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="labs.rockpaperscissors.RockPaperScissorsRunner" />
       <module name="IntelliJIDEATesting" />
@@ -76,37 +118,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArraySolutionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="IntelliJIDEATesting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="labs.array_12_5_22.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="labs.array_12_5_22" />
-      <option name="MAIN_CLASS_NAME" value="labs.array_12_5_22.ArraySolutionsTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArraySolutionsTest.testDuplicateDoubleArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="IntelliJIDEATesting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="labs.array_12_5_22.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="labs.array_12_5_22" />
-      <option name="MAIN_CLASS_NAME" value="labs.array_12_5_22.ArraySolutionsTest" />
-      <option name="METHOD_NAME" value="testDuplicateDoubleArray" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -144,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GradingQuizzesRunner" />
+        <item itemvalue="Application.Grades" />
         <item itemvalue="Application.RockPaperScissorsRunner" />
         <item itemvalue="JUnit.SelfDivisorTest.testFirstNSelfDivisors" />
         <item itemvalue="JUnit.HorseBarnTest" />
-        <item itemvalue="JUnit.ArraySolutionsTest" />
-        <item itemvalue="JUnit.ArraySolutionsTest.testDuplicateDoubleArray" />
       </list>
     </recent_temporary>
   </component>
@@ -197,6 +208,7 @@
       <workItem from="1670505620173" duration="2944000" />
       <workItem from="1670510058007" duration="595000" />
       <workItem from="1670514713249" duration="3193000" />
+      <workItem from="1670598294101" duration="6179000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1664894154499</created>
