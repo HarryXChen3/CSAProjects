@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50f33dac-9fbd-4459-b73d-c7b153591b0b" name="Changes" comment="Add remaining code for the 3 labs, this makes rollback branch useless">
-      <change afterPath="$PROJECT_DIR$/src/main/java/labs/arraylist_exercises/AddAndDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/labs/arraylist_exercises/CompareLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/labs/arraylist_exercises/CopyList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/labs/arraylist_exercises/IterateOverList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/labs/arraylist_exercises/RemoveElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/labs/arraylist_exercises/SwapElements.java" afterDir="false" />
+    <list default="true" id="50f33dac-9fbd-4459-b73d-c7b153591b0b" name="Changes" comment="Add ArrayList Exercises from 1-6">
+      <change afterPath="$PROJECT_DIR$/src/main/java/labs/arraylist_labs/Delimiters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/labs/arraylist_labs/StringFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/labs/arraylist_labs/mountain_climbing/ClimbInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/labs/arraylist_labs/mountain_climbing/ClimbingClub.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,35 +57,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Dev/max_server",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Dev/max_server&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Dev\CSAProjects\src\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SwapElements">
+  <component name="RunManager" selected="Application.StringFormatter">
+    <configuration name="ClimbingClub" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="labs.mountain_climbing.ClimbingClub" />
+      <module name="IntelliJIDEATesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="labs.mountain_climbing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CompareLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="labs.arraylist_exercises.CompareLists" />
       <module name="IntelliJIDEATesting" />
@@ -101,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CopyList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="labs.arraylist_exercises.CopyList" />
+    <configuration name="Delimiters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="labs.arraylist_labs.Delimiters" />
       <module name="IntelliJIDEATesting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="labs.arraylist_exercises.*" />
+          <option name="PATTERN" value="labs.arraylist_labs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,25 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IterateOverList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="labs.arraylist_exercises.IterateOverList" />
+    <configuration name="StringFormatter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="labs.arraylist_labs.StringFormatter" />
       <module name="IntelliJIDEATesting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="labs.arraylist_exercises.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RemoveElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="labs.arraylist_exercises.RemoveElement" />
-      <module name="IntelliJIDEATesting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="labs.arraylist_exercises.*" />
+          <option name="PATTERN" value="labs.arraylist_labs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringFormatter" />
+        <item itemvalue="Application.Delimiters" />
+        <item itemvalue="Application.ClimbingClub" />
         <item itemvalue="Application.SwapElements" />
         <item itemvalue="Application.CompareLists" />
-        <item itemvalue="Application.RemoveElement" />
-        <item itemvalue="Application.CopyList" />
-        <item itemvalue="Application.IterateOverList" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +210,8 @@
       <workItem from="1670627560431" duration="597000" />
       <workItem from="1670859107683" duration="593000" />
       <workItem from="1670860276809" duration="2221000" />
-      <workItem from="1674748602342" duration="2234000" />
+      <workItem from="1674748602342" duration="2882000" />
+      <workItem from="1674834863312" duration="1575000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1664894154499</created>
@@ -284,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670605596271</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Add ArrayList Exercises from 1-6">
+      <created>1674751006903</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1674751006904</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,7 +317,8 @@
     <MESSAGE value="Add Unit 5 Labs, LineBreaker and MonsterRunner, disable failing test on TruthTableGeneratorTest" />
     <MESSAGE value="Added Array Unit labs, still missing at least 1 but includes Array_Lab Student and array practice questions...on a more technical side, started using tests when possible instead of putting everything in a main method" />
     <MESSAGE value="Add remaining code for the 3 labs, this makes rollback branch useless" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add remaining code for the 3 labs, this makes rollback branch useless" />
+    <MESSAGE value="Add ArrayList Exercises from 1-6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add ArrayList Exercises from 1-6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
