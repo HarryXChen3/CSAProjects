@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50f33dac-9fbd-4459-b73d-c7b153591b0b" name="Changes" comment="Add ArrayList Exercises from 1-6">
-      <change afterPath="$PROJECT_DIR$/src/main/java/labs/arraylist_labs/Delimiters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/labs/arraylist_labs/StringFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/labs/arraylist_labs/mountain_climbing/ClimbInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/labs/arraylist_labs/mountain_climbing/ClimbingClub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/labs/arrays_2d/Arrays2D.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,13 +82,13 @@
       <recent name="C:\Dev\CSAProjects\src\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringFormatter">
-    <configuration name="ClimbingClub" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="labs.mountain_climbing.ClimbingClub" />
+  <component name="RunManager" selected="Application.Arrays2D">
+    <configuration name="Arrays2D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="labs.arrays_2d.Arrays2D" />
       <module name="IntelliJIDEATesting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="labs.mountain_climbing.*" />
+          <option name="PATTERN" value="labs.arrays_2d.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompareLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="labs.arraylist_exercises.CompareLists" />
+    <configuration name="ClimbingClub" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="labs.mountain_climbing.ClimbingClub" />
       <module name="IntelliJIDEATesting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="labs.arraylist_exercises.*" />
+          <option name="PATTERN" value="labs.mountain_climbing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Arrays2D" />
         <item itemvalue="Application.StringFormatter" />
         <item itemvalue="Application.Delimiters" />
         <item itemvalue="Application.ClimbingClub" />
         <item itemvalue="Application.SwapElements" />
-        <item itemvalue="Application.CompareLists" />
       </list>
     </recent_temporary>
   </component>
@@ -212,6 +209,9 @@
       <workItem from="1670860276809" duration="2221000" />
       <workItem from="1674748602342" duration="2882000" />
       <workItem from="1674834863312" duration="1575000" />
+      <workItem from="1675354407867" duration="330000" />
+      <workItem from="1675444717978" duration="825000" />
+      <workItem from="1675872204069" duration="624000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1664894154499</created>
