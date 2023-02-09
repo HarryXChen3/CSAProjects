@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50f33dac-9fbd-4459-b73d-c7b153591b0b" name="Changes" comment="Add ArrayList Exercises from 1-6">
-      <change afterPath="$PROJECT_DIR$/src/main/java/labs/arrays_2d/Arrays2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/labs/matrix_2d_fancyword/FancyWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/labs/matrix_2d_fancyword/FancyWordRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/labs/matrix_2d_pascal/PascalsTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/labs/matrix_2d_pascal/PascalsTriangleRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/labs/matrix_2d_sum/MatrixSumming.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/labs/matrix_2d_sum/MatrixSummingRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +87,7 @@
       <recent name="C:\Dev\CSAProjects\src\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Arrays2D">
+  <component name="RunManager" selected="Application.MatrixSummingRunner">
     <configuration name="Arrays2D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="labs.arrays_2d.Arrays2D" />
       <module name="IntelliJIDEATesting" />
@@ -96,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClimbingClub" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="labs.mountain_climbing.ClimbingClub" />
+    <configuration name="FancyWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="labs.matrix_2d_fancyword.FancyWord" />
       <module name="IntelliJIDEATesting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="labs.mountain_climbing.*" />
+          <option name="PATTERN" value="labs.matrix_2d_fancyword.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Delimiters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="labs.arraylist_labs.Delimiters" />
+    <configuration name="FancyWordRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="labs.matrix_2d_fancyword.FancyWordRunner" />
       <module name="IntelliJIDEATesting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="labs.arraylist_labs.*" />
+          <option name="PATTERN" value="labs.matrix_2d_fancyword.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringFormatter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="labs.arraylist_labs.StringFormatter" />
+    <configuration name="MatrixSumming" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="labs.matrix_2d_sum.MatrixSumming" />
       <module name="IntelliJIDEATesting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="labs.arraylist_labs.*" />
+          <option name="PATTERN" value="labs.matrix_2d_sum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwapElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="labs.arraylist_exercises.SwapElements" />
+    <configuration name="MatrixSummingRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="labs.matrix_2d_sum.MatrixSummingRunner" />
       <module name="IntelliJIDEATesting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="labs.arraylist_exercises.*" />
+          <option name="PATTERN" value="labs.matrix_2d_sum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MatrixSummingRunner" />
+        <item itemvalue="Application.MatrixSumming" />
+        <item itemvalue="Application.FancyWordRunner" />
+        <item itemvalue="Application.FancyWord" />
         <item itemvalue="Application.Arrays2D" />
-        <item itemvalue="Application.StringFormatter" />
-        <item itemvalue="Application.Delimiters" />
-        <item itemvalue="Application.ClimbingClub" />
-        <item itemvalue="Application.SwapElements" />
       </list>
     </recent_temporary>
   </component>
@@ -212,6 +217,7 @@
       <workItem from="1675354407867" duration="330000" />
       <workItem from="1675444717978" duration="825000" />
       <workItem from="1675872204069" duration="624000" />
+      <workItem from="1675958210585" duration="2801000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1664894154499</created>
