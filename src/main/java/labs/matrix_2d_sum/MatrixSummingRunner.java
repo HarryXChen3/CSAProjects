@@ -26,10 +26,10 @@ public class MatrixSummingRunner {
 
         for (final String nextString: input) {
             final String[] splitBySpace = nextString.split(" ");
-            final int x = Integer.parseInt(splitBySpace[0]);
-            final int y = Integer.parseInt(splitBySpace[1]);
+            final int row = Integer.parseInt(splitBySpace[0]);
+            final int col = Integer.parseInt(splitBySpace[1]);
 
-            System.out.printf("The sum of %d, %d is %d.%n", x, y, MatrixSumming.getNeighborSum(x, y));
+            System.out.printf("The sum of %d, %d is %d.%n", row, col, MatrixSumming.getNeighborSumByRowCol(row, col));
         }
     }
 }

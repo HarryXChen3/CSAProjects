@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="50f33dac-9fbd-4459-b73d-c7b153591b0b" name="Changes" comment="Add incomplete 2D Matrix labs (PascalsTriangle is incomplete, will finish later)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/labs/matrix_2d_pascal/PascalsTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/labs/matrix_2d_pascal/PascalsTriangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/labs/matrix_2d_pascal/PascalsTriangleRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/labs/matrix_2d_pascal/PascalsTriangleRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/labs/matrix_2d_sum/MatrixSumming.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/labs/matrix_2d_sum/MatrixSumming.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +82,7 @@
       <recent name="C:\Dev\CSAProjects\src\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PascalsTriangleRunner">
+  <component name="RunManager" selected="Application.MatrixSummingRunner">
     <configuration name="FancyWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="labs.matrix_2d_fancyword.FancyWord" />
       <module name="IntelliJIDEATesting" />
@@ -151,8 +150,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PascalsTriangleRunner" />
         <item itemvalue="Application.MatrixSummingRunner" />
+        <item itemvalue="Application.PascalsTriangleRunner" />
         <item itemvalue="Application.MatrixSumming" />
         <item itemvalue="Application.FancyWordRunner" />
         <item itemvalue="Application.FancyWord" />
@@ -215,6 +214,7 @@
       <workItem from="1675872204069" duration="624000" />
       <workItem from="1675958210585" duration="3446000" />
       <workItem from="1676044452062" duration="2867000" />
+      <workItem from="1676391387685" duration="947000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1664894154499</created>
@@ -343,6 +343,12 @@
           <url>file://$PROJECT_DIR$/src/main/java/truthtable/TruthTableGenerator.java</url>
           <line>110</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="x == 1 &amp;&amp; y == 3" language="JAVA" />
+          <url>file://$PROJECT_DIR$/src/main/java/labs/matrix_2d_sum/MatrixSumming.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

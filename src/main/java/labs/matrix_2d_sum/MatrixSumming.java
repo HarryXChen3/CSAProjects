@@ -16,12 +16,12 @@ public class MatrixSumming {
         final int n_rows = matrix.length;
 
         int n = 0;
-        for (int col = y-1; col < (y+2); col++) {
-            for (int row = x-1; row < (x+2); row++) {
-                if ((x != row || y != col) &&
+        for (int row = y-1; row < (y+2); row++) {
+            for (int col = x-1; col < (x+2); col++) {
+                if ((x != col || y != row) &&
                         (0 <= col && col < n_cols) &&
                         (0 <= row && row < n_rows)) {
-                    neighbors[n] = matrix[col][row];
+                    neighbors[n] = matrix[row][col];
                     n++;
                 }
             }
@@ -32,5 +32,9 @@ public class MatrixSumming {
 
     public static int getNeighborSum(final int x, final int y) {
         return Arrays.stream(getNeighbors(x, y)).sum() + matrix[y][x];
+    }
+
+    public static int getNeighborSumByRowCol(final int row, final int col) {
+        return getNeighborSum(col, row);
     }
 }
