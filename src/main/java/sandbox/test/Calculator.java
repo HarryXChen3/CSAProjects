@@ -1,7 +1,8 @@
-package test;
+package sandbox.test;
 
 import java.lang.reflect.Field;
 
+@SuppressWarnings("unused")
 public class Calculator {
     public static double mul(final double x0, final double x1) { return x0 * x1; }
     public static double div(final double x0, final double x1) { return x0 / x1; }
@@ -19,7 +20,6 @@ public class Calculator {
             }
         }
 
-        //return String.format(builder)
-        return "";
+        return builder.toString();
     }
 }
