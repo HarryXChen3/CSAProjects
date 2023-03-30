@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50f33dac-9fbd-4459-b73d-c7b153591b0b" name="Changes" comment="Fix a bug and address an input format issue in MatrixSumming ([x, y] originally, now [row, col])">
-      <change afterPath="$PROJECT_DIR$/src/main/java/sandbox/Sandbox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sandbox/benchmark/BenchmarkListAdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sandbox/inheritance/Inherited.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sandbox/inheritance/Test.java" afterDir="false" />
+    <list default="true" id="50f33dac-9fbd-4459-b73d-c7b153591b0b" name="Changes" comment="Move some things around I think">
+      <change afterPath="$PROJECT_DIR$/src/main/java/labs/recursion_exercises/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/labs/recursion_exercises/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/labs/recursion_exercises/Power.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/labs/recursion_exercises/ReverseString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IntelliJIDEATesting.iml" beforeDir="false" afterPath="$PROJECT_DIR$/IntelliJIDEATesting.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/labs/matrix_2d_pascal/PascalsTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/labs/matrix_2d_pascal/PascalsTriangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sandbox/test/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/CalculatorRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sandbox/test/CalculatorRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,13 +34,6 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
-  </component>
-  <component name="GithubProjectSettings">
-    <option name="branchProtectionPatterns">
-      <list>
-        <option value="master" />
-      </list>
-    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -90,13 +79,13 @@
       <recent name="C:\Dev\CSAProjects\src\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Sandbox">
-    <configuration name="BenchmarkListAdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="labs.benchmark.BenchmarkListAdd" />
+  <component name="RunManager" selected="Application.Power">
+    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="labs.recursion_exercises.Factorial" />
       <module name="IntelliJIDEATesting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sandbox.inheritance.*" />
+          <option name="PATTERN" value="labs.recursion_exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GradeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="labs.GradeSort" />
+    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="labs.recursion_exercises.Fibonacci" />
       <module name="IntelliJIDEATesting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="labs.*" />
+          <option name="PATTERN" value="labs.recursion_exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +106,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PascalsTriangleRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="labs.matrix_2d_pascal.PascalsTriangleRunner" />
+    <configuration name="Power" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="labs.recursion_exercises.Power" />
       <module name="IntelliJIDEATesting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="labs.matrix_2d_pascal.*" />
+          <option name="PATTERN" value="labs.recursion_exercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="labs.recursion_exercises.ReverseString" />
+      <module name="IntelliJIDEATesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="labs.recursion_exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,26 +145,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sandbox.inheritance.Test" />
-      <module name="IntelliJIDEATesting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sandbox.inheritance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Power" />
+        <item itemvalue="Application.ReverseString" />
+        <item itemvalue="Application.Fibonacci" />
+        <item itemvalue="Application.Factorial" />
         <item itemvalue="Application.Sandbox" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.PascalsTriangleRunner" />
-        <item itemvalue="Application.BenchmarkListAdd" />
-        <item itemvalue="Application.GradeSort" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +219,9 @@
       <workItem from="1677167681227" duration="2223000" />
       <workItem from="1677600541829" duration="40000" />
       <workItem from="1679412714865" duration="741000" />
-      <workItem from="1679584120674" duration="657000" />
+      <workItem from="1679584120674" duration="2064000" />
+      <workItem from="1679931653258" duration="620000" />
+      <workItem from="1680188137992" duration="1850000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit.">
       <created>1664894154499</created>
@@ -323,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676392591545</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Move some things around I think">
+      <created>1679584930594</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1679584930594</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,7 +351,8 @@
     <MESSAGE value="Add ArrayList Exercises from 1-6" />
     <MESSAGE value="Add incomplete 2D Matrix labs (PascalsTriangle is incomplete, will finish later)" />
     <MESSAGE value="Fix a bug and address an input format issue in MatrixSumming ([x, y] originally, now [row, col])" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix a bug and address an input format issue in MatrixSumming ([x, y] originally, now [row, col])" />
+    <MESSAGE value="Move some things around I think" />
+    <option name="LAST_COMMIT_MESSAGE" value="Move some things around I think" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
